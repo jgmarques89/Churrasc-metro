@@ -4,7 +4,7 @@ let inputCriancas = document.getElementById("criancas")
 let inputDuracao = document.getElementById("duracao")
 let resultado = document.getElementById("resultado")
 
-//função de calulo quando clicar no botão "calcular"
+//função de calculo quando clicar no botão "calcular"
 function calcular() {
 
     let adultos = inputAdultos.value
