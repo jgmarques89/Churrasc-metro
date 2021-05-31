@@ -1,0 +1,69 @@
+body {
+    background: linear-gradient(45deg, #fed049, #007580, #282846, #282846);
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite;
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.logo {
+    background-image: url(./assets/banner-churrascometro-v3.png);
+    background-size: cover;
+    width: 100%;
+    height: 100px;
+    display: block;
+}
+
+.container {
+    max-width: 350px;
+    height: 550px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 50px;
+    /* border: white solid 1px; */
+}
+
+input {
+    margin: auto;
+    display: block;
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border-style: none;
+    margin: 30px;
+    text-align: center;
+}
+
+button{
+
+    margin: auto;
+    display: block;
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    border: white solid 1px;
+    background: none; 
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem;
+
+}
+
+#resultado{
+
+    color: white;
+    text-align: center;
+    
+
+}
